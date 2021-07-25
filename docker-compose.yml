@@ -1,0 +1,13 @@
+version: "3"
+services:
+  anagram-checker:
+    container_name: anagram-checker
+    build: .
+    ports:
+      - 9000:9000
+    restart: on-failure
+    volumes:
+      - anagram-checker:/usr/src/anagram-checker/
+
+volumes:
+  anagram-checker:

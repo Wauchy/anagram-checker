@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+body {
+  color: #fff;
+  background-color: #212529;
+}
+
+.contact {
+  font-family: "Architects Daughter", cursive;
+  transform: rotate(20deg);
+  margin-top: 6em;
+  margin-left: 17em;
+}
+
+.contact-arrow {
+  transform: rotate(160deg);
+  margin-left: 15em;
+}
+
+.github {
+  transform: rotate(40deg);
+  padding-right: 5em;
+}
