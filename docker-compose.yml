@@ -2,6 +2,7 @@ version: "3"
 services:
   anagram-checker:
     container_name: anagram-checker
+    command: tail -f /dev/null
     build: .
     ports:
       - 9000:9000

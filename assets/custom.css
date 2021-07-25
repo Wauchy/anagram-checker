@@ -7,17 +7,16 @@ body {
 
 .contact {
   font-family: "Architects Daughter", cursive;
+  text-align: center;
   transform: rotate(20deg);
-  margin-top: 6em;
-  margin-left: 17em;
+  margin-top: 7em;
 }
 
 .contact-arrow {
+  margin-right: 70px;
   transform: rotate(160deg);
-  margin-left: 15em;
 }
 
 .github {
-  transform: rotate(40deg);
-  padding-right: 5em;
+  padding-right: 240px;
 }
