@@ -68,10 +68,10 @@ func CheckAnagram(c echo.Context) error {
 		return wordTwoSlice[i] < wordTwoSlice[j]
 	})
 
-	var sortedWord string = strings.Join(wordOneSlice, "")
-	var sortedAnagram string = strings.Join(wordTwoSlice, "")
+	var sortedWordOne string = strings.Join(wordOneSlice, "")
+	var sortedWordTwo string = strings.Join(wordTwoSlice, "")
 
-	if sortedWord == sortedAnagram {
+	if sortedWordOne == sortedWordTwo {
 		ac.IsAnagram = true
 		ac.Message = "Yep, those words are anagrams of each other"
 	} else {
