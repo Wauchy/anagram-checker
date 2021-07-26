@@ -22,8 +22,8 @@ func CheckAnagram(c echo.Context) error {
 
 	ac := &AnagramChecker{}
 
-	ac.WordOne = c.FormValue("wordOne")
-	ac.WordTwo = c.FormValue("wordTwo")
+	ac.WordOne = strings.ToLower(c.FormValue("wordOne"))
+	ac.WordTwo = strings.ToLower(c.FormValue("wordTwo"))
 	ac.IsAnagram = false
 
 	// Input validations
