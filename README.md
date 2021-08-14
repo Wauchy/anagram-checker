@@ -2,10 +2,6 @@
 
 Anagram Checker is a web application that checks whether two words are anagrams of each other.
 
-## Live Demo
-
-[https://anagram-checker.vaus.ee](https://anagram-checker.vaus.ee)
-
 ## Installation
 
 Clone this repository to your projects directory
